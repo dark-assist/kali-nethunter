@@ -246,7 +246,7 @@ cmdline="proot \\
         --link2symlink \\
         -0 \\
         -r $CHROOT \\
-        -v /sdcard \\
+        -b /sdcard \\
         -b /dev \\
         -b /proc \\
         -b $CHROOT\$home:/dev/shm \\
